@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BasketKotlin</string>
+    <string name="team_a">Team A</string>
+    <string name="initialScoreA">0</string>
+    <string name="addThreePointsA">+3 Points</string>
+    <string name="addTwoPointsA">+2 Points</string>
+    <string name="addOnePointA">Free Throw</string>
+    <string name="team_b">Team B</string>
+    <string name="initialScoreB">0</string>
+    <string name="addThreePointsB">+3 Points</string>
+    <string name="addTwoPointsB">+2 Points</string>
+    <string name="addOnePointB">Free Throw</string>
+    <string name="resetButton">Reset</string>
+</resources>

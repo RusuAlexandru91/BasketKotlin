@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/team_a" />
+
+    <TextView
+        android:id="@+id/scoreTeamA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/initialScoreA" />
+
+    <Button
+        android:id="@+id/addThreeForTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addThreePointsA" />
+
+    <Button
+        android:id="@+id/addTwoForTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addTwoPointsA" />
+
+    <Button
+        android:id="@+id/addOneForTeamA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addOnePointA" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:text="@string/team_b" />
+
+    <TextView
+        android:id="@+id/scoreTeamB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/initialScoreB" />
+
+    <Button
+        android:id="@+id/addThreeForTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addThreePointsB" />
+
+    <Button
+        android:id="@+id/addTwoForTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addTwoPointsB" />
+
+    <Button
+        android:id="@+id/addOneForTeamB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addOnePointB" />
+
+    <Button
+        android:id="@+id/resetScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/resetButton" />
+</LinearLayout>
